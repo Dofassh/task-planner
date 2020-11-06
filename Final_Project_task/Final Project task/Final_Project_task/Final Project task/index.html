@@ -1,0 +1,101 @@
+<!-- CODE EXPLAINED CHANNEL -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do list</title>
+</head>
+
+<body>
+  <!-------------------------added in nav bar----------------------->
+  <div class="topnav">
+    <a class="active" href="#home"></a>
+  </div>
+
+  <div class="title">
+    <h1>Task Planner</h1>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron text-center" id="headJumbo">
+      <h1>Turning A New Leaf ?</h1>
+    </div>
+  </div>
+  <!-----------------------added in form questions----------------------->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4 mx-auto" id="form">
+        <form>
+          <div class="form-group">
+            <label for="inputName">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Jennifer Watson">
+          </div>
+          <div class="form-group">
+            <label for="inputDescription">Task Description</label>
+            <input type="text" class="form-control" name="inputDescription" id="inputDescription"
+              placeholder="Add to blog post">
+          </div>
+          <div class="form-group">
+            <label for="inputDueDate">Due Date</label>
+            <input type="date" class="form-control" id="inputDueDate" placeholder="DD/MM/YYYY">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md">
+              <label for="inputAssignedTo">Assigned To</label>
+              <input type="text" class="form-control" id="inputAssignedTo" placeholder="Me">
+            </div>
+            <div class="form-group col-md ">
+              <label for="inputStatus">Status</label>
+              <select id="inputStatus" class="form-control">
+                <option selected>Choose...</option>
+                <option>To Do</option>
+                <option>In Progress</option>
+                <option>In Review</option>
+                <option>Review </option>
+                <option>Completed </option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary-dark" id="addItemBtn">Add To Task List</button>
+          </div>
+        </form>
+        <div class="col-md-5 mx-auto">
+          <div class="header">
+            <div id=date>DATE</div>
+          </div>
+          <div class="content">
+            <ul class="list-group list-group-flush" id="listItems">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-----------------------added in cards ----------------------->
+  <div class="cards-section container">
+    <div class="row" id="rows">
+    </div>
+  </div>
+</body>
+<div class="footer">
+  Made With ♥ By Parmeet Sembhi 
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</html>

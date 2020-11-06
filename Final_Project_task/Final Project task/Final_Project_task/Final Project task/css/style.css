@@ -1,0 +1,132 @@
+/* ------------ youtube.com/CodeExplained ------------ */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e3e8d7;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* ------------ top navbar ------------ */
+.topnav {
+    background-color: #154C39;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /* ------------  text task planner ------------ */
+
+  .title{
+    font-family: 'Righteous', cursive;
+    color: #154C39;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+/* ------------ jumbotron ------------ */
+
+.jumbotron{
+    background-color: #EBEBEB;
+    background-image: url('../img/okay.jpg');
+    background-position-x: left;
+    background-size: contain;
+    margin: 50px auto;
+    padding-left: 10px;
+    background-repeat:repeat;
+}
+
+#headJumbo{
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+#headJumbo h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #154C39;
+    padding-top: 30px;
+    text-shadow: 2px 2px #78A97E;
+    font-family: 'Righteous', cursive;
+}
+
+/* ------------ header ------------ */
+.header{
+    height:200px;
+    background-image: url('../img/leafs.jpg');
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+#date{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* ------------ content ------------ */
+.content{
+    height: 350px;
+    max-height:350px;
+    background-color: #FFF;
+    overflow: auto;
+  
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content ul{
+    padding:0;
+    margin:0;
+}
+
+/* ------------ add item ------------ */
+
+#addItemBtn{
+background-color:#154C39;
+border-width:5px;  
+border-style: none;
+color: #FFF;
+}
+
+.cards-section{
+    padding-top: 100px;
+}
+
+.card-section{
+    margin-bottom: 50px;
+}
+
+.footer{
+    text-align: center;
+    color:#fff;
+    font-weight: 500px;
+    font-size: large;
+    padding: 10px;
+    text-shadow: 1px 1px #000;
+}
+.btn{
+background-color:#154C39;
+}
+
+#form{
+    color:#154C39;
+    font-weight: 10%;
+}
+
+.list-group-item-action{
+    /* box-shadow: 0 8px 16px 0 rgba(21,76,57), 0 6px 20px 0 rgba(21,76,57); */
+    -webkit-box-shadow: 2px 1px 5px 2px rgba(21,76,57,0.81); 
+    box-shadow: 2px 1px 5px 2px rgba(21,76,57,0.81);
+}
